@@ -1,3 +1,5 @@
+<!--this is employee-list table-->
+
 <table class="table table-hover">
   <tr *ngFor="let emp of service.list">
     <td (click)="populateForm(emp)">[{{emp.EMPCode}}]-{{emp.FullName}}</td>
